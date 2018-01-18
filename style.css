@@ -13,15 +13,15 @@
 
 body
 {
-	 height:90vh;
+	 height:50vh;
      background-image: url("background.png");
 	 background-position: center center;
 }
 
 .container
 {
-    width: 500px;
-	height:300px;
+    width: 400px;
+	height:200px;
 	overflow:visible;
     margin-left: auto;
     margin-right: auto;
@@ -29,8 +29,8 @@ body
 
 .w_container
 {
-    width:510px;
-	height:600px;
+    width:410px;
+	height:300px;
 	overflow:visible;
     margin-left: auto;
     margin-right: auto;
