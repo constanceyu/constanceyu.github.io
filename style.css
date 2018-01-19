@@ -52,6 +52,12 @@ body
 	color:#605d67;
 }
 
+.footnote
+{
+	font-size: 6pt;
+	letter-spacing: 1pt;
+}
+
 .content
 {
     font-size: 10.5pt;
