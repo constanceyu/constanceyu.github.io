@@ -58,16 +58,6 @@ body
 	letter-spacing: 1pt;
 }
 
-.self_intro
-{
-    font-size: 10.5pt;
-    text-align: left;
-	padding: 50px;
-	color:#7c7b7f;
-	background-color:white;
-	line-height: 120%;
-}
-
 .content
 {
     font-size: 10.5pt;
@@ -87,6 +77,12 @@ body
     outline: none;
     border: none;
     z-index: -1;
+}
+
+.days_pic{
+	display: relative;
+	width: 400px;
+	height: 400px;
 }
 
 
