@@ -27,7 +27,7 @@ body
 
 .w_container
 {
-    width:450px;
+    width:500px;
 	height:300px;
 	overflow:visible;
     margin-left: auto;
@@ -67,7 +67,7 @@ body
 	background-color:white;
 	line-height: 120%;
 }
-
+/*
 .emomap {
     width: 375 px;
     height: 667 px;
@@ -75,7 +75,7 @@ body
     outline: none;
     border: none;
     z-index: -1;
-}
+}*/
 
 .days_pic{
 	display: relative;
@@ -83,6 +83,12 @@ body
 	height: 400px;
 }
 
+.soul_pic{
+	display: block;
+	margin-bottom: 4em; 
+    margin-left: auto;
+    margin-right: auto;
+}
 
 a:link,a:visited {color:#7c7b7f;text-decoration:none;}
 a:hover,a:active {color:#a5a5a5;text-decoration:none;background-color:white;}
