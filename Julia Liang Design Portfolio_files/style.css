@@ -1,14 +1,16 @@
 @font-face {
     font-family: Univers;
     src: url('/fonts/univers.ttf');
-    font-family: 'Montserrat', sans-serif;
-font-family: 'Spectral', serif;
 }
 
+@font-face {
+    font-family: Univers-Light;
+    src: url('/fonts/univers-light.ttf');
+}
 
 body {
 		background: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
     font-style: normal;
 		font-weight: 400;
     overflow-x: hidden;
@@ -190,6 +192,55 @@ footer {
 }
 
 
+
+/*---------------------------------------
+    Preloader section              
+-----------------------------------------*/
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #ffffff;
+}
+
+.sk-spinner-pulse {
+  width: 60px;
+  height: 60px;
+  background-color: #417565;
+  border-radius: 100%;
+
+  -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+          animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+
+@-webkit-keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+@keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+
+
+
 /*---------------------------------------
     Navigation section              
 -----------------------------------------*/
@@ -225,7 +276,7 @@ footer {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #6666ff !important;
+    color: #417565 !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
