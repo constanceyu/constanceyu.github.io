@@ -117,7 +117,7 @@ a {
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #417565;
+  color: #6666ff;
   outline: none;
 }
 
@@ -141,7 +141,7 @@ a:hover, a:active, a:focus {
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #417565;
+  background: #6666ff;
 }
 
 .section-title {
@@ -295,7 +295,6 @@ footer {
 #home p {
   font-size: 27px;
   line-height: 42px;
-  /*letter-spacing: 1px;*/
   padding-top: 18px;
 }
 
@@ -312,7 +311,7 @@ footer {
 }
 
 #divider .btn {
-  background-color: #417565;
+  background-color: #6666ff;
   border: 2px solid transparent;
   color: #ffffff;
   font-size: 14px;
@@ -326,11 +325,11 @@ footer {
 
 #divider .btn:hover {
   background: transparent;
-  border-right-color: #417565;
-  border-left-color: #417565;
-  border-top-color: #417565;
-  border-bottom-color: #417565;
-  color: #417565;
+  border-right-color: #6666ff;
+  border-left-color: #6666ff;
+  border-top-color: #6666ff;
+  border-bottom-color: #6666ff;
+  color: #6666ff;
 }
 
 .col-md-10.col-sm-12.top {
@@ -419,7 +418,7 @@ footer {
 }
 
 #team .team-thumb:hover h4 {
-  color: #417565;
+  color: #6666ff;
 }
 
 
@@ -431,7 +430,7 @@ footer {
   background-color: #f0f0f0;
   border-radius: 100px;
   cursor: pointer;
-  color: #417565;
+  color: #6666ff;
   font-size: 32px;
   width: 85px;
   height: 85px;
@@ -575,7 +574,7 @@ footer {
 }
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
-  color: #417565;
+  color: #6666ff;
 }
 
 /*isotope box css*/
@@ -706,9 +705,9 @@ footer {
 #contact form input[type="submit"]:hover {
   background: transparent;
   border-radius: 2px;
-  border-right-color: #417565;
-  border-left-color: #417565;
-  color: #417565;
+  border-right-color: #6666ff;
+  border-left-color: #6666ff;
+  color: #6666ff;
 }
 
 #contact .contact-detail-2 {
@@ -735,7 +734,7 @@ footer {
 }
 
 .prev-next a:hover{
-  color: #417565;
+  color: #6666ff;
 }
 
 .prev-button{
@@ -795,7 +794,7 @@ footer .footer-link ul li a {
 }
 
 footer .footer-link ul li a:hover {
-  color: #417565;
+  color: #6666ff;
 }
 
 footer .footer-copyright {
@@ -840,8 +839,8 @@ footer .footer-copyright p {
 }
 
 .social-icon li a:hover {
-    /*background: #417565;*/
-    color: #417565;
+    /*background: #6666ff;*/
+    color: #6666ff;
     /*top: -5px;*/
 }
 
@@ -870,7 +869,7 @@ footer .footer-copyright p {
 }
 
 .go-top:hover {
-    background: #417565;
+    background: #6666ff;
     color: #ffffff;
 }
 

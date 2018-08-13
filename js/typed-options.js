@@ -4,7 +4,7 @@
 
   $(function(){
     $(".element").typed({
-      strings: ["Code", "Think", "Resolve", "Design"],
+      strings: ["Code", "Think", "Resolve", "Create"],
                     typeSpeed: 100,
                      contentType: 'html',
                      showCursor: false,
