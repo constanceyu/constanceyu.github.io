@@ -22,7 +22,6 @@ body {
 
 h1,h2 {
   font-weight: 400;
-  /*letter-spacing: 1px;*/
 }
 
 h3,h4,h5,h6 {
@@ -31,7 +30,6 @@ h3,h4,h5,h6 {
 
 h1 {
     font-size: 56px;
-    /*letter-spacing: 2px;*/
     margin-bottom: 0px;
     font-weight: 400;
 }
@@ -196,6 +194,7 @@ footer {
     box-shadow: 0px;
     padding-top: 22px;
     margin: 0 !important;
+    /* position: fixed; */
 }
 
 .navbar-default .navbar-brand {
@@ -210,6 +209,12 @@ footer {
 
 .navbar-default .navbar-brand > img {
   max-height: 70px;
+}
+
+h2 img {
+  padding-left: 5px;
+  height: 1.2em;
+  vertical-align: bottom;
 }
 
 .navbar-default .navbar-nav li a {
