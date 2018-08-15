@@ -194,7 +194,6 @@ footer {
     box-shadow: 0px;
     padding-top: 22px;
     margin: 0 !important;
-    /* position: fixed; */
 }
 
 .navbar-default .navbar-brand {
@@ -564,6 +563,7 @@ h2 img {
     width: 100%;
     padding: 0px;
     margin-bottom: 32px;
+    margin-left: 10px;
     overflow: hidden;
 }
 
@@ -586,7 +586,9 @@ h2 img {
 }
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
-  color: #8982c4;
+  background-color: #8982c4 !important;
+  -webkit-border-radius: 2px;
+  color: #ffffff;
 }
 
 /*isotope box css*/
