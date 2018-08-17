@@ -29,13 +29,13 @@ h3,h4,h5,h6 {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 59px;
     margin-bottom: 0px;
     font-weight: 400;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 34px;
   padding-bottom: 8px;
 }
 
@@ -211,7 +211,7 @@ footer {
 }
 
 h2 img {
-  padding-left: 5px;
+  padding-left: 7px;
   height: 1.2em;
   vertical-align: bottom;
 }
