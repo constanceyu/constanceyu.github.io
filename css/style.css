@@ -81,6 +81,7 @@ b, strong {
   font-size: 14px;
   line-height: 18px;
   padding: 5px 0px;
+  text-align: center;
 }
 
 .intro {
@@ -107,8 +108,7 @@ html{
 }
 
 a {
-  /*color: #1dc9e3;*/
-  color: #8BB2A2;
+  color: #d7b3b6;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -222,6 +222,7 @@ h2 img {
     font-weight: 550;
     line-height: 50px;
     letter-spacing: 1px;
+    border-radius: 2px;
     -webkit-border-radius: 2px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
@@ -231,6 +232,7 @@ h2 img {
 
 .navbar-default .navbar-nav > li a:hover {
     background-color: #8982c4 !important;
+    border-radius: 2px;
     -webkit-border-radius: 2px;
     color: #ffffff;
 }
@@ -587,6 +589,7 @@ h2 img {
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
   background-color: #8982c4 !important;
+  border-radius: 2px;
   -webkit-border-radius: 2px;
   color: #ffffff;
 }
@@ -626,6 +629,7 @@ h2 img {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   /* ideally, transition speed should match zoom duration */
   -webkit-transition: all 0.3s ease-out;
@@ -853,9 +857,7 @@ footer .footer-copyright p {
 }
 
 .social-icon li a:hover {
-    /*background: #8982c4;*/
     color: #8982c4;
-    /*top: -5px;*/
 }
 
 
