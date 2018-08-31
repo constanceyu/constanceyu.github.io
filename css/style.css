@@ -816,11 +816,16 @@ footer .footer-link ul li a:hover {
 }
 
 footer .footer-copyright {
-  padding-top: 16px;
+  padding-top: 12px;
+}
+
+footer .footer-copyright img {
+  margin-left: auto;
+	margin-right: auto;
 }
 
 footer .footer-copyright p {
-  padding-top: 8px;
+  padding-top: 13px;
 }
 
 
