@@ -167,11 +167,6 @@ footer {
 }
 
 #portfolio img,
-#team img {
-  border-radius: 2px;
-  width: 100%;
-}
-
 .bg-gray {
   background-color: #f9f9f9;
 }
@@ -801,7 +796,7 @@ footer .footer-link ul li {
   list-style: none;
   display: inline-block;
   padding: 22px;
-  font-size: 14px
+  font-size: 14px;
 }
 
 footer .footer-link ul li a {
@@ -848,7 +843,7 @@ footer .footer-copyright p {
     color: #757575;
     border-radius: 100px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 26px;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
     width: 50px;
